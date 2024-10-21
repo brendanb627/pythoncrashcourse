@@ -40,4 +40,8 @@ else:
 # Do you get an error?
 # Does anything print out?
 # Why or why not?
+# The code will run without errors and will print out the code within the if statement. This is
+# because the if statement is a complete statement on its own. It doesn't need an else statement
+# to function. The else statement is just an additional option that can be added to the if statement
+# to provide an alternative action if the condition is not met.
 

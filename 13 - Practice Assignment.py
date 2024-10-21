@@ -9,6 +9,10 @@
 
 # ---------------------------------------------------------------------------------- #
 def even_numbers(num):
+    numList = []
+    for i in range(0, num):
+        if i % 2 == 0:
+            numList.append(i)
     # num is a positive integer greater than zero
     # return a list of all even integers from 0 until 1 less than the number
     # For example, if the number is 6, return [0,2,4]
@@ -16,7 +20,7 @@ def even_numbers(num):
     # write your code here    
 
     # replace the return value your even number list
-    return []
+    return numList
 
 
 # ---------------------------------------------------------------------------------- #

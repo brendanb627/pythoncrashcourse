@@ -7,7 +7,7 @@ z = 11
 
 # equality operator: ==
 # The double equals sign compares two things and returns True if they are equal false if they are not equal
-print("1. ",x,"==",y, x==y)
+print("1. ",x,"==",y, x=y)
 print("2. ",x,"==",z, x==z)
 
 # not equal operator: !=
@@ -38,4 +38,6 @@ print("12.",y,"<=",z, y<=z)
 
 # BREAK IT
 # What happens if instead of writing x==z, we write x=z? What happens to x?
-# Remember the difference between the functionality of = vs. ==
+# Remember the difference between the functionality of = vs. == 
+
+# = is to assign and == or === is to compare

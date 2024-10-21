@@ -32,7 +32,7 @@ print(num1,"%",num3,"=",num1%num3)
 string1 = "This is Dan's"
 string2 = " homework."
 string3 = ' According to Dan. This is "clever."'
-string4 = string1 + string2 + string3
+string4 = string1 - string2 + string3
 
 # you can see for string 3, I used ' instead because I wanted to put " inside the string. There are other ways to handle that as well, but we don't need to get into that today.
 
@@ -53,3 +53,6 @@ print("The value of string4 is:", string4)
 # What happens if you multiply a string by a string?
 # What happens if you divide an integer by zero?
 # Why do these errors occur?
+
+# 
+

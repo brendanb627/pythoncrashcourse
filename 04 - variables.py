@@ -37,3 +37,6 @@ print(x,y)
 # For example: 
 # 1 = "Hello"
 # Why do you think the error occurs?
+# The error occurs because variable names can only be strings. In other words, they can only be
+# words or phrases that are surrounded by quotation marks. Numbers are not strings, so they can't
+# be used as variable names.

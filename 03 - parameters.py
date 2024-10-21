@@ -1,7 +1,7 @@
 # let's take a look at another function:
 
 def hello(name):
-    print("Hello",name)
+    print("")
 
 # What is the 'name' there? It doesn't have any quotation marks, and it's there twice.
 
@@ -16,8 +16,8 @@ def hello(name):
 # We must pass an argument to the function.
 
 # An argument is the value that is sent to the function when you call it.
-
-hello("Dan")
+user_input = input('what is your name?')
+hello(user_input)
 
 # in this case, the argument is "Dan"
 

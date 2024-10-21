@@ -35,7 +35,7 @@ print("New list version 4:", new_list)
 # Additionally, if we know the value of the element we want to delete, we can use list's remove function to remove by value
 
 
-new_list.remove("World")
+new_list.remove("W")
 # NOTE: If there are multiple instances of the same value in the list, for example, if our list were ["Hello", "World", "World", "World"], remove would remove the first instance of the value and leave the rest remaining as ["Hello", "World","World"]
 
 print("New list version 5:", new_list)
@@ -45,3 +45,5 @@ print("New list version 5:", new_list)
 # What happens if we try to del at an index that doesn't exist (an index too high)?
 # What happens if we try to remove a value that doesn't exist in the list?
 # Why do the errors occur?
+
+# A traceback error occurs
