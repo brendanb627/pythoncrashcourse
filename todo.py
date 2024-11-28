@@ -39,6 +39,8 @@ while running:
         add_to_list(user_input[4:])
     elif user_input.isdigit():
         print(remove_from_list(user_input))
+    else:
+        print("Invalid input")
 
 
 
